@@ -37,7 +37,7 @@
         <!--=============== HEADER ===============-->
         <header class="profile container">
             <!-- Theme button -->
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <i class="ri-moon-line change-theme" onclick="sound()" id="theme-button"></i>
 
             <div class="profile__container grid">
                 <div class="profile__data">
@@ -336,6 +336,14 @@
             </span>
         </footer>
 
+        <!--=============== LIGHT MODE & DARK MODE SWITCHING SOUND ===============-->
+        <audio id="switch-on">
+            <source src="/assets/mp3/switch-on.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="switch-off">
+            <source src="/assets/mp3/switch-off.mp3" type="audio/mpeg">
+          </audio>
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
 

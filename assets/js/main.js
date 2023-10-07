@@ -48,6 +48,12 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+//--=============== SCROLLREVEAL ===============-->//
+function sound(){
+    var snd = new Audio('/assets/mp3/switch-on.mp3')//wav is also supported
+    snd.play()//plays the sound
+}
+
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
